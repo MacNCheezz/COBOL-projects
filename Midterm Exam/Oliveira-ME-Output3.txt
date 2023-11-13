@@ -1,0 +1,18 @@
+REPORT TITLE: ITEMS ON SHELF BETWEEN 5 AND 11 MONTHS - REPORT #3
+REPORT DESCRIPTION: MIS 280: COBOL MIDTERM EXAM
+AUTHOR: McCarthy Oliveira
+DATE: 10/16/2019
+
+CODE     TITLE                TIME LOCATION       PRICE
+21349LB1 Plaster               7.0 New Fairfield  $  49.99
+90812CS9 Reciprocating Saw    11.0 Stamford       $ 119.99
+11211PP9 Plasma Welder         7.5 Waterbury      $ 799.99
+90578VM1 Nylon Ties (100 pk)   5.5 New Fairfield  $  24.99
+52687DQ2 Tractor Blades        6.8 Waterbury      $  75.50
+01284JR7 Circular Saw–6in      6.5 Norwalk        $ 299.99
+01159WV0 Power Drill–Std       7.5 Mystic         $ 119.99
+11224BD9 Power Drill–90 deg    8.0 Danbury        $ 139.99
+33546KJ1 Tool chest–metal      9.5 New Haven      $1199.99
+06668EC3 Reservoir–6in         5.0 Reading        $  85.00
+06648EC3 Reservoir–9in         5.0 Reading        $ 100.00
+06628EC3 Reservoir–12in        7.0 Reading        $ 130.00

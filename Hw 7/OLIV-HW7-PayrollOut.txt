@@ -1,0 +1,82 @@
+                    PAYROLL REPORT
+____________________________________________________________________________________________________________________________________________
+ EMPLOYEE         NAME             CURRENT        OLD      OLD       FICA           IBT             FED         STATE        OLD NET
+    NO.                            SALARY        UNION    INSUR.     TAX                            TAX          TAX         SALARY
+  56423   Pete Becker           $1,628,739.00   $177.55  $128.76  $100,981.81  $1,527,450.88  $  602,633.43  $122,155.42  $  802,662.03
+    |||
+    |||                            RAISED         NEW      NEW       FICA           IBT             FED         STATE        NEW NET
+    |||                            SALARY        UNION    INSUR.     TAX                            TAX          TAX         SALARY
+  56423   Pete Becker           $1,742,750.73   $184.65  $132.62  $108,050.54  $1,634,382.91  $  644,817.77  $130,706.30  $  858,858.84
+____________________________________________________________________________________________________________________________________________
+ EMPLOYEE         NAME             CURRENT        OLD      OLD       FICA           IBT             FED         STATE        OLD NET
+    NO.                            SALARY        UNION    INSUR.     TAX                            TAX          TAX         SALARY
+  84651   Chandler Bing         $1,274,912.00   $122.36  $145.36  $ 79,044.54  $1,195,599.74  $  471,717.44  $ 95,618.40  $  628,263.90
+    |||
+    |||                            RAISED         NEW      NEW       FICA           IBT             FED         STATE        NEW NET
+    |||                            SALARY        UNION    INSUR.     TAX                            TAX          TAX         SALARY
+  84651   Chandler Bing         $1,364,155.84   $127.25  $149.72  $ 84,577.66  $1,279,301.20  $  504,737.66  $102,311.68  $  672,251.86
+____________________________________________________________________________________________________________________________________________
+ EMPLOYEE         NAME             CURRENT        OLD      OLD       FICA           IBT             FED         STATE        OLD NET
+    NO.                            SALARY        UNION    INSUR.     TAX                            TAX          TAX         SALARY
+  95122   Monica Geller         $  563,458.00   $145.32  $132.52  $ 34,934.39  $  528,245.77  $  208,479.46  $ 42,259.35  $  277,506.96
+    |||
+    |||                            RAISED         NEW      NEW       FICA           IBT             FED         STATE        NEW NET
+    |||                            SALARY        UNION    INSUR.     TAX                            TAX          TAX         SALARY
+  95122   Monica Geller         $  602,900.06   $151.13  $136.49  $ 37,379.80  $  565,232.63  $  223,073.02  $ 45,217.50  $  296,942.11
+____________________________________________________________________________________________________________________________________________
+ EMPLOYEE         NAME             CURRENT        OLD      OLD       FICA           IBT             FED         STATE        OLD NET
+    NO.                            SALARY        UNION    INSUR.     TAX                            TAX          TAX         SALARY
+  46513   Rachel Green          $  682,312.00   $132.14  $145.46  $ 42,303.34  $  639,731.06  $  252,455.44  $ 51,173.40  $  336,102.22
+    |||
+    |||                            RAISED         NEW      NEW       FICA           IBT             FED         STATE        NEW NET
+    |||                            SALARY        UNION    INSUR.     TAX                            TAX          TAX         SALARY
+  46513   Rachel Green          $  730,073.84   $137.42  $149.82  $ 45,264.57  $  684,522.02  $  270,127.32  $ 54,755.53  $  359,639.17
+____________________________________________________________________________________________________________________________________________
+ EMPLOYEE         NAME             CURRENT        OLD      OLD       FICA           IBT             FED         STATE        OLD NET
+    NO.                            SALARY        UNION    INSUR.     TAX                            TAX          TAX         SALARY
+  96365   Ross Geller           $3,058,526.00   $155.54  $168.51  $189,628.61  $2,868,573.34  $1,131,654.62  $229,389.45  $1,507,529.27
+    |||
+    |||                            RAISED         NEW      NEW       FICA           IBT             FED         STATE        NEW NET
+    |||                            SALARY        UNION    INSUR.     TAX                            TAX          TAX         SALARY
+  96365   Ross Geller           $3,272,622.82   $161.76  $173.56  $202,902.61  $3,069,384.88  $1,210,870.44  $245,446.71  $1,613,067.73
+____________________________________________________________________________________________________________________________________________
+ EMPLOYEE         NAME             CURRENT        OLD      OLD       FICA           IBT             FED         STATE        OLD NET
+    NO.                            SALARY        UNION    INSUR.     TAX                            TAX          TAX         SALARY
+  68453   Pheobe Buffay         $  597,582.00   $146.51  $186.51  $ 37,050.08  $  560,198.90  $  221,105.34  $ 44,818.65  $  294,274.91
+    |||
+    |||                            RAISED         NEW      NEW       FICA           IBT             FED         STATE        NEW NET
+    |||                            SALARY        UNION    INSUR.     TAX                            TAX          TAX         SALARY
+  68453   Pheobe Buffay         $  639,412.74   $152.37  $192.10  $ 39,643.58  $  599,424.68  $  236,582.71  $ 47,955.95  $  314,886.02
+____________________________________________________________________________________________________________________________________________
+ EMPLOYEE         NAME             CURRENT        OLD      OLD       FICA           IBT             FED         STATE        OLD NET
+    NO.                            SALARY        UNION    INSUR.     TAX                            TAX          TAX         SALARY
+  76451   Janice Hosenstein     $  856,851.00   $168.45  $135.31  $ 53,124.76  $  803,422.48  $  317,034.87  $ 64,263.82  $  422,123.79
+    |||
+    |||                            RAISED         NEW      NEW       FICA           IBT             FED         STATE        NEW NET
+    |||                            SALARY        UNION    INSUR.     TAX                            TAX          TAX         SALARY
+  76451   Janice Hosenstein     $  916,830.57   $175.18  $139.36  $ 56,843.49  $  859,672.53  $  339,227.31  $ 68,762.29  $  451,682.93
+____________________________________________________________________________________________________________________________________________
+ EMPLOYEE         NAME             CURRENT        OLD      OLD       FICA           IBT             FED         STATE        OLD NET
+    NO.                            SALARY        UNION    INSUR.     TAX                            TAX          TAX         SALARY
+  69845   Emily Waltham         $1,476,983.00   $146.13  $156.45  $ 91,572.94  $1,385,107.48  $  546,483.71  $110,773.72  $  727,850.05
+    |||
+    |||                            RAISED         NEW      NEW       FICA           IBT             FED         STATE        NEW NET
+    |||                            SALARY        UNION    INSUR.     TAX                            TAX          TAX         SALARY
+  69845   Emily Waltham         $1,580,371.81   $151.97  $161.14  $ 97,983.05  $1,482,075.64  $  584,737.56  $118,527.88  $  778,810.20
+____________________________________________________________________________________________________________________________________________
+ EMPLOYEE         NAME             CURRENT        OLD      OLD       FICA           IBT             FED         STATE        OLD NET
+    NO.                            SALARY        UNION    INSUR.     TAX                            TAX          TAX         SALARY
+  47685   Ursula Buffay         $2,780,453.00   $145.66  $113.68  $172,388.08  $2,607,805.58  $1,028,767.61  $208,533.97  $1,370,504.00
+    |||
+    |||                            RAISED         NEW      NEW       FICA           IBT             FED         STATE        NEW NET
+    |||                            SALARY        UNION    INSUR.     TAX                            TAX          TAX         SALARY
+  47685   Ursula Buffay         $2,975,084.71   $151.48  $117.09  $184,455.25  $2,790,360.88  $1,100,781.34  $223,131.35  $1,466,448.19
+____________________________________________________________________________________________________________________________________________
+ EMPLOYEE         NAME             CURRENT        OLD      OLD       FICA           IBT             FED         STATE        OLD NET
+    NO.                            SALARY        UNION    INSUR.     TAX                            TAX          TAX         SALARY
+  74561   Joey Tribianni        $  979,846.00   $131.64  $198.46  $ 60,750.45  $  918,765.45  $  362,543.02  $ 73,488.45  $  482,733.98
+    |||
+    |||                            RAISED         NEW      NEW       FICA           IBT             FED         STATE        NEW NET
+    |||                            SALARY        UNION    INSUR.     TAX                            TAX          TAX         SALARY
+  74561   Joey Tribianni        $1,048,435.22   $136.90  $204.41  $ 65,002.98  $  983,090.92  $  387,921.03  $ 78,632.64  $  516,537.25
+____________________________________________________________________________________________________________________________________________

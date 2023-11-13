@@ -1,0 +1,13 @@
+NAME                   FIRST      VEHICLE     MILES    DAYS |   MILES  +    DAYS  =    TOTAL
+                      INITIAL      TYPE       SPENT   SPENT |    CALC  +    CALC  =   AMOUNT
+
+Jon Snow                 J        TOYOTA        624      13 |  112.32  +  338.00  =  $ 450.32
+Arya Stark               A        CHEVROLET      76       2 |   16.72  +   64.00  =  $  80.72
+Tyrion Lannister         T        CADILLAC      397       8 |  111.16  +  344.00  =  $ 455.16
+Bran Stark               B        TOYOTA        152       4 |   27.36  +  104.00  =  $ 131.36
+Theon Greyjoy            T        CADILLAC       53       2 |   14.84  +   86.00  =  $ 100.84
+Samwell Tarly            S        CADILLAC      236       5 |   66.08  +  215.00  =  $ 281.08
+Khal Drogo               K        TOYOTA        104       3 |   18.72  +   78.00  =  $  96.72
+George R. R. Martin      G        CADILLAC      879      18 |  246.12  +  774.00  =  $1020.12
+Daenerys Targaryen       D        CHEVROLET    1254       2 |  275.88  +   64.00  =  $ 339.88
+Jaime Lannister          J        TOYOTA         92       3 |   16.56  +   78.00  =  $  94.56

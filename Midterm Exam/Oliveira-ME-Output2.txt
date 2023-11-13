@@ -1,0 +1,21 @@
+REPORT TITLE: ITEMS THAT COST $75 OR MORE - REPORT #2
+REPORT DESCRIPTION: MIS 280: COBOL MIDTERM EXAM
+AUTHOR: McCarthy Oliveira
+DATE: 10/16/2019
+
+CODE     TITLE                COST
+90812CS9 Reciprocating Saw    $ 100.00
+88976ZQ2 Wrench               $  76.00
+11211PP9 Plasma Welder        $ 500.00
+90879LK9 Snow Blower          $ 800.00
+47786VZ0 Jigsaw               $ 100.00
+68774WW1 Table Saw–10in       $ 150.00
+01010HU2 Tile Saw–8in         $ 100.00
+96222TP7 Circular Saw–12in    $ 500.00
+01284JR7 Circular Saw–6in     $ 200.00
+01159WV0 Power Drill–Std      $  80.00
+11224BD9 Power Drill–90 deg   $  90.00
+33546KJ1 Tool chest–metal     $ 750.00
+55901YT1 Tool chest–steel     $ 900.00
+06648EC3 Reservoir–9in        $  85.00
+06628EC3 Reservoir–12in       $  90.00

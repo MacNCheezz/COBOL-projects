@@ -1,0 +1,119 @@
+      ******************************************************************
+      * Author: McCarthy Oliveira
+      * Date: 10/23/19
+      * Purpose: Print the rental princing for different cars
+      ******************************************************************
+       IDENTIFICATION DIVISION.
+
+       PROGRAM-ID. CAR-RENTAL.
+       ENVIRONMENT DIVISION.
+       INPUT-OUTPUT SECTION.
+       FILE-CONTROL.
+           SELECT RENT-LIST
+           ASSIGN TO
+         'D:\COBOL\MIS 280 Homework\Homework #8\OLIV-HW8-RentIn.txt'
+               ORGANIZATION IS LINE SEQUENTIAL.
+           SELECT LIST-OUT
+           ASSIGN TO
+         'D:\COBOL\MIS 280 Homework\Homework #8\OLIV-HW8-RentOut.txt'
+               ORGANIZATION IS LINE SEQUENTIAL.
+       DATA DIVISION.
+       FILE SECTION.
+       FD  RENT-LIST.
+       01  REC-IN.
+           05 NAME-IN                  PIC X(20).
+           05 FIRST-IN                 PIC X.
+           05 CAR-TYPE                 PIC 9.
+           05 MILES-IN                 PIC 9(5).
+           05 DAYS-IN                  PIC 9(3).
+       FD  LIST-OUT.
+       01  REC-OUT.
+           05 NAME-OUT                 PIC X(20).
+           05                          PIC X(2) VALUE SPACES.
+           05 FIRST-OUT                PIC BBBXBBB.
+           05                          PIC X(5) VALUE SPACES.
+           05 CAR-TYPE-OUT             PIC X(9).
+           05                          PIC X(2) VALUE SPACES.
+           05 MILES-OUT                PIC Z(6).
+           05                          PIC X(2) VALUE SPACES.
+           05 DAYS-OUT                 PIC Z(6).
+           05                          PIC X(3) VALUE SPACES.
+           05 MILES2-OUT               PIC Z(4).99.
+           05                          PIC X(4) VALUE SPACES.
+           05 DAYS2-OUT                PIC Z(4).99.
+           05                          PIC X(5) VALUE SPACES.
+           05 TOTAL-OUT                PIC $Z(4).99.
+           05                          PIC X(5) VALUE SPACES.
+       WORKING-STORAGE SECTION.
+       01  MORE-DATA                   PIC XXX VALUE 'YES'.
+       01  MILES                       PIC 9(5)v99.
+       01  DAYS                        PIC 9(3)v99.
+       01  TOTAL                       PIC 9(4)V99.
+       01  HEADER-1.
+           05                          PIC X(52) VALUE
+           'NAME                   FIRST      VEHICLE     MILES'.
+           05                          PIC X(40) VALUE
+           '   DAYS |   MILES  +    DAYS  =    TOTAL'.
+       01  HEADER-2.
+           05                          PIC X(52) VALUE
+           '                      INITIAL      TYPE       SPENT'.
+           05                          PIC X(40) VALUE
+           '  SPENT |    CALC  +    CALC  =   AMOUNT'.
+       PROCEDURE DIVISION.
+       100-MAIN.
+           OPEN INPUT RENT-LIST
+               OUTPUT LIST-OUT
+           WRITE REC-OUT FROM HEADER-1
+           WRITE REC-OUT FROM HEADER-2
+               BEFORE ADVANCING 2 LINES
+           PERFORM UNTIL MORE-DATA = 'NO'
+               READ RENT-LIST
+                   AT END
+                       MOVE 'NO' TO MORE-DATA
+                   NOT AT END
+                       PERFORM 200-PROCESS
+               END-READ
+           END-PERFORM
+           CLOSE RENT-LIST
+                 LIST-OUT
+           STOP RUN.
+       200-PROCESS.
+           MOVE NAME-IN TO NAME-OUT
+           MOVE FIRST-IN TO FIRST-OUT
+           EVALUATE CAR-TYPE
+           WHEN 1 PERFORM 300-TOYOTA
+           WHEN 2 PERFORM 400-CHEVROLET
+           WHEN 3 PERFORM 500-CADILLAC.
+       300-TOYOTA.
+           MULTIPLY DAYS-IN BY 26 GIVING DAYS
+               MULTIPLY MILES-IN BY .18 GIVING MILES
+               ADD DAYS MILES GIVING TOTAL
+               MOVE 'TOYOTA' TO CAR-TYPE-OUT
+               MOVE MILES TO MILES2-OUT
+               MOVE MILES-IN TO MILES-OUT
+               MOVE DAYS TO DAYS2-OUT
+               MOVE DAYS-IN TO DAYS-OUT
+               MOVE TOTAL TO TOTAL-OUT
+               WRITE REC-OUT.
+       400-CHEVROLET.
+           MULTIPLY DAYS-IN BY 32 GIVING DAYS
+               MULTIPLY MILES-IN BY .22 GIVING MILES
+               ADD DAYS MILES GIVING TOTAL
+               MOVE 'CHEVROLET' TO CAR-TYPE-OUT
+               MOVE MILES TO MILES2-OUT
+               MOVE MILES-IN TO MILES-OUT
+               MOVE DAYS TO DAYS2-OUT
+               MOVE DAYS-IN TO DAYS-OUT
+               MOVE TOTAL TO TOTAL-OUT
+               WRITE REC-OUT.
+       500-CADILLAC.
+           MULTIPLY DAYS-IN BY 43 GIVING DAYS
+               MULTIPLY MILES-IN BY .28 GIVING MILES
+               ADD DAYS MILES GIVING TOTAL
+               MOVE 'CADILLAC' TO CAR-TYPE-OUT
+               MOVE MILES TO MILES2-OUT
+               MOVE MILES-IN TO MILES-OUT
+               MOVE DAYS TO DAYS2-OUT
+               MOVE DAYS-IN TO DAYS-OUT
+               MOVE TOTAL TO TOTAL-OUT
+               WRITE REC-OUT.

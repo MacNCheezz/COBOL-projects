@@ -1,0 +1,10 @@
+Backpacks           00710000
+Pencils             00152000
+Notebooks           01482500
+Staples             00132000
+Pens                00264600
+Chairs              01320000
+Earbuds             00995000
+Folders             00104000
+Printers            05880000
+Laptops             41040000

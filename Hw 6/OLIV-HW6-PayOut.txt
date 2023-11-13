@@ -1,0 +1,14 @@
+                              PAYROLL LISTING               PAGE 01   09/21/2019
+
+EMP. NO.  EMPLOYEE NAME        TERR NO.  OFFICE NO.  ANNUAL SALARY  PHONE #
+
+ 46515     BOB VANCE              10        12         $124,651     570 635 2142
+ 54123     JIM HALPERT            02        10         $035,635     570 651 3335
+ 64513     MICHAEL SCOTT          01        01         $044,865     570 846 5132
+ 14563     DWIGHT SCHRUTE         01        02         $030,361     570 256 4823
+ 31653     PAM BEESLY             02        10         $020,485     570 358 6446
+ 87946     KEVIN MALONE           03        01         $025,975     570 986 5231
+ 39455     STANLEY HUDSON         05        03         $022,712     570 451 2365
+ 45654     ANGELA MARTIN          03        03         $023,456     570 465 1652
+ 68523     OSCAR NUNEZ            03        02         $022,415     570 685 1323
+ 74126     KELLY KAPOOR           05        01         $025,846     570 651 3212

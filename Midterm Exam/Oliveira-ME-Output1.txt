@@ -1,0 +1,9 @@
+REPORT TITLE: ITEMS LOCATED IN <> - REPORT #1
+REPORT DESCRIPTION: MIS 280: COBOL MIDTERM EXAM
+AUTHOR: McCarthy Oliveira
+DATE: 10/16/2019
+
+CODE     TITLE                LOCATION
+06668EC3 Reservoir–6in        Reading
+06648EC3 Reservoir–9in        Reading
+06628EC3 Reservoir–12in       Reading

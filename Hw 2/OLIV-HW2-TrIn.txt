@@ -1,0 +1,10 @@
+Backpacks           05000142
+Pencils             00500304
+Notebooks           02500593
+Staples             01000132
+Pens                00700378
+Chairs              12000110
+Earbuds             02500398
+Folders             00500208
+Printers            15000392
+Laptops             60000684
