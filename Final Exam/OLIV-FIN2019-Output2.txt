@@ -1,0 +1,68 @@
+EMPLOYEE SALARY INFORMATION - ERROR REPORT
+MIS 280: COBOL I FINAL EXAM
+AUTHOR: McCarthy Oliveira
+DATE: 12/11/19
+
+EMPNO   EMP_NAME              POS_TITLE   DOE         SL   ANN_SAL    TEN   EL   SAL_INC   ANN_BON
+______________________________________________________________________________________________________
+90812   COREY HAYES                       12/11/2019   1   $ 41,500   05    Y    $ 45,235  $  2,905
+
+ERROR #4: The above record is missing position title data
+______________________________________________________________________________________________________
+13246   BRIAN GUENETTE        Sec         12/11/2019   1   $ 49,870   03    N
+
+ERROR #1: The above record contains a salary that is out of range for level 1
+______________________________________________________________________________________________________
+90879   SUE DONALDSON         Exec        12/11/2019   1   $ 79,800   10    Y    $ 86,982  $  5,586
+
+ERROR #1: The above record contains a salary that is out of range for level 1
+______________________________________________________________________________________________________
+01010   LARRY BARNETT         IS          12/11/2019   2   $105,900   09    Y    $115,431  $  7,413
+
+ERROR #2: The above record contains a salary that is out of range for level 2
+______________________________________________________________________________________________________
+01284   GEORGE WASHINGTON     Exec        12/11/2019   3   $255,980   15    Y    $279,018  $ 17,918
+
+ERROR #3: The above record contains a salary that is out of range for level 3
+______________________________________________________________________________________________________
+11224   FRANK BARNES                      12/11/2019   1   $ 48,500   07    Y    $ 52,865  $  3,395
+
+ERROR #4: The above record is missing position title data
+______________________________________________________________________________________________________
+06668   MARIE SHIPP           IS          12/11/2019   3   $102,500   07    Y    $111,725  $  7,175
+
+ERROR #3: The above record contains a salary that is out of range for level 3
+______________________________________________________________________________________________________
+21349   JEANNIE BEEKAM        IS          12/11/2019   2   $ 84,200   02    N
+
+ERROR #2: The above record contains a salary that is out of range for level 2
+______________________________________________________________________________________________________
+90812   COREL PORA            Clerk       12/11/2019   2   $ 41,500   05    Y    $ 45,235  $  2,905
+
+ERROR #2: The above record contains a salary that is out of range for level 2
+______________________________________________________________________________________________________
+13246   BRIAN GUNTHER         Admin       12/11/2019   1   $ 49,870   03    N
+
+ERROR #1: The above record contains a salary that is out of range for level 1
+______________________________________________________________________________________________________
+68774   SHAWN JACKSON                     12/11/2019   2   $ 56,250   08    Y    $ 61,312  $  3,937
+
+ERROR #4: The above record is missing position title data
+______________________________________________________________________________________________________
+01010   DIANA WOWZER          Finance     12/11/2019   1   $105,900   09    Y    $115,431  $  7,413
+
+ERROR #1: The above record contains a salary that is out of range for level 1
+______________________________________________________________________________________________________
+01284   ANGEL MEEK                        12/11/2019   3   $255,980   15    Y    $279,018  $ 17,918
+
+ERROR #4: The above record is missing position title data
+ERROR #3: The above record contains a salary that is out of range for level 3
+______________________________________________________________________________________________________
+11224   BARNEY RUBBLE                     12/11/2019   1   $ 48,500   07    Y    $ 52,865  $  3,395
+
+ERROR #4: The above record is missing position title data
+______________________________________________________________________________________________________
+06668   SCOTTI PANDORA        IS          12/11/2019   3   $102,500   07    Y    $111,725  $  7,175
+
+ERROR #3: The above record contains a salary that is out of range for level 3
+______________________________________________________________________________________________________
